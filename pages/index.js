@@ -29,7 +29,7 @@ export default function Home() {
     <div className="flex flex-col justify-between h-screen">
       <Head>
         <title>Gogle</title>
-        <meta name="description" content="Gogle a genune clone of google using google api's" />
+        <meta name="description" content="Gogle a genune clone of google using google apis" />
         <link rel="icon" href="" />
       </Head>
 
@@ -68,7 +68,7 @@ export default function Home() {
         </form>
         <div>
           <button onClick={search} className="btn">Gogle Search</button>
-          <button onClick={search} className="btn">I'm Feeling Lucky</button>
+          <button onClick={search} className="btn">I&apos;am Feeling Lucky</button>
         </div>
       </div>
 
