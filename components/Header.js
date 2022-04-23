@@ -20,8 +20,8 @@ function Header() {
     }
     return (
         <header className='sticky top-0 bg-white'>
-            <div className='flex p-6  w-full  items-center'>
-            <Image src={Logo} width={150} height={90} onClick={() => router.push("/")} className="cursor-pointer " />
+            <div className='flex p-4 sm:p-6  w-full  items-center'>
+            <Image className="cursor-pointer hidden sm:flex" src={Logo} width={75} height={45} onClick={() => router.push("/")}  />
 
             <form onSubmit={search} className='flex flex-grow px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center'>
                 <input ref={searchInputRef} className="flex-grow w-full focus:outline-none" type="text" />
@@ -34,7 +34,7 @@ function Header() {
 
                 <SearchIcon onClick={search} className="h-6 mr-3 hidden sm:inline-flex text-blue-500 pl-4 border-gray-300 cursor-pointer" />
             </form>
-            <Avatar url={"https://ibb.co/7YsPncJ"} className="ml-auto"/>
+            <Avatar className="ml-auto hidden sm:flex"/>
             </div>
 
             <HeaderOptions/>

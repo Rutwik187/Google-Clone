@@ -30,7 +30,7 @@ export default function Home() {
       <Head>
         <title>Gogle</title>
         <meta name="description" content="Gogle a genune clone of google using google api's" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="" />
       </Head>
 
       {/* Left */}
@@ -49,7 +49,7 @@ export default function Home() {
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer " />
 
           {/* Avatar */}
-          <Avatar url={"https://ibb.co/7YsPncJ"} />
+          <Avatar />
         </div>
       </header>
 
